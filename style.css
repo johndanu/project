@@ -169,15 +169,7 @@ body {
 .containerOfFinger{
   position:relative,
 }
-.resFinger {
-  position: absolute;
-  bottom: 0;
-  left: 25%;
-  width: 50%;
 
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .resLeftBorder {
   border-left: #7b0303 3px solid;
@@ -250,15 +242,83 @@ visibility: hidden;
 @media only screen and (min-width: 768px) {
   .resReviewBtn {width: 50% }
   .resTitle{height: 30%;}
-
+  .resFinger {    width: 300px;      position: absolute;      left: 50%;      margin-left: -150px;      bottom: 0;      margin-bottom: 0;
+      /* left: 45%;
+      width:10%; */
+      /* margin-left: auto;
+      margin-right: auto; */
+      
+    }
+    .resFinger {
+      width:50%;
+        position: absolute;
+        left: 50%;
+        margin-left: -25%;
+        bottom: 0;
+        margin-bottom: 0;
+        /* left: 45%;
+        width:10%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        
+      }
+  
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .resHSpace{padding: 1rem;}
+  .resLBtn .resRBtn{
+    width: 50% !important;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .resHSpace{
+    padding: 3rem !important;
 
+  }
+  .resRBtn {
+    padding-left: 3rem !important; padding-right: 3rem !important;
+    font-size: 2rem !important;
+
+  } 
+  .resLBtn{
+    padding-left: 3rem !important; padding-right: 3rem !important;
+    font-size: 2rem !important;
+
+  } 
+  .resFinger {
+    width:1200px;
+      position: absolute;
+      left: 50%;
+      margin-left: -600px;
+      bottom: 0;
+      margin-bottom: 0;
+      /* left: 45%;
+      width:10%; */
+      /* margin-left: auto;
+      margin-right: auto; */
+      
+    }
+}
+
+.resBtnP .resLBtn{
+  padding: 1rem;
+}
+.resLBtn{
+  display: block;
+ padding: 1rem;
+font-size: 35px;
+
+  margin-right: 1rem;
+  margin-left: auto;
+}
+.resRBtn{
+
+  
+font-size: 35px;
+  margin-right: 1rem;
+  margin-left: auto;
 }
