@@ -219,6 +219,8 @@ body {
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
+  .resHSpace{padding: 1rem;}
+
   .resReviewBtn {width: 100%;}
   .resTitle{height: 15%;}
   .resLogoRes{height: 10%; width: 75%;}
@@ -240,6 +242,8 @@ visibility: hidden;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .resHSpace{padding: 1rem;}
+
   .resReviewBtn {width: 50% }
   .resTitle{height: 30%;}
   .resFinger {    width: 300px;      position: absolute;      left: 50%;      margin-left: -150px;      bottom: 0;      margin-bottom: 0;
