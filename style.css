@@ -280,7 +280,7 @@ visibility: hidden;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .resHSpace{
-    padding: 3rem !important;
+    padding: 0.5rem !important;
 
   }
   .resRBtn {
@@ -294,10 +294,10 @@ visibility: hidden;
 
   } 
   .resFinger {
-    width:1200px;
+    width:600px;
       position: absolute;
       left: 50%;
-      margin-left: -600px;
+      margin-left: -300px;
       bottom: 0;
       margin-bottom: 0;
       /* left: 45%;
